@@ -1,6 +1,7 @@
 services:
   - type: web
     name: lite_http_tunnel
+    region: singapore
     env: node
     plan: free
     buildCommand: npm install
